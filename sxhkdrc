@@ -1,0 +1,16 @@
+super + y
+	qutebrowser
+
+super + shift + y
+	firefox
+
+ctrl + alt + l
+	sudo systemctl suspend
+
+#Youtube
+ctrl + shift + y
+	ytfzf -fD
+
+#Screen Shot
+super + shift + s
+	maim -s | tee ~/Pictures/$(date +%s).png | xclip -selection clipboard -t image/png
