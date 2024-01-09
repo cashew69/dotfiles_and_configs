@@ -50,8 +50,8 @@ fi
 
 picom -f &
 sxhkd &
-#wal -R &
-/home/cashew/projects/pytime-wal/walit &
+wal -R &
+#/home/cashew/projects/pytime-wal/walit &
 syncthing --no-browser &
 setxkbmap -option caps:swapescape
 #Time and Date
