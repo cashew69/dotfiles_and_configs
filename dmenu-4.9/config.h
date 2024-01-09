@@ -7,7 +7,7 @@ static const char *fonts[] = {
 	"monospace:size=10"
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
-#include "/home/cashew/.cache/wal/colors-wal-dmenu.h"
+#include "colors-wal-dmenu.h"
 
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
 static unsigned int lines      = 0;
