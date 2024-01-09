@@ -9,7 +9,7 @@ static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "JetBrains Mono SemiBold:size=13"};
 static const char dmenufont[]       = "JetBrains Mono SemiBold:size=13";
 
-#include "/home/cashew/.cache/wal/colors-wal-dwm.h"
+#include "colors-wal-dwm.h"
 
 /* tagging */
 static const char *tags[] = { "", "N", "", "", "", "", "", "" };
